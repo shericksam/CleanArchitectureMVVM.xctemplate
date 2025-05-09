@@ -216,6 +216,13 @@
             <key>SortOrder</key>
             <integer>97</integer>
         </dict>
+        <key>UI/Views/Content/ContentView.swift</key>
+        <dict>
+            <key>Path</key>
+            <string>UI/Views/Content/ContentView.swift</string>
+            <key>SortOrder</key>
+            <integer>99</integer>
+        </dict>
         <key>UI/Views/Content/ContentViewModel.swift</key>
         <dict>
             <key>Path</key>
@@ -290,6 +297,7 @@
     <key>Nodes</key>
     <array>
         <string>___PACKAGENAME:identifier___App.swift</string>
+        <string>UI/Views/Content/ContentView.swift</string>
         <string>UI/Views/Content/ContentViewModel.swift</string>
         <string>Data/Network/APIClient.swift</string>
         <string>Domain/Models/SampleModel.swift</string>
@@ -309,7 +317,7 @@
     <array>
         <dict>
             <key>TargetIdentifier</key>
-            <string>com.apple.dt.unit.application</string>
+            <string>com.apple.dt.cocoaTouchApplicationTarget</string>
         </dict>
     </array>
 </dict>
