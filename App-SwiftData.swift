@@ -8,6 +8,7 @@ struct ___PACKAGENAME:identifier___App: App {
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
             Item.self,
+            UserModel.self
         ])
         let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
 
@@ -20,7 +21,7 @@ struct ___PACKAGENAME:identifier___App: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            DIContainer.makeUsersListView(context: sharedModelContainer.mainContext)
         }
         .modelContainer(sharedModelContainer)
     }
