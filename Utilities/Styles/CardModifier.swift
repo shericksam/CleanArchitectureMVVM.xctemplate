@@ -8,10 +8,11 @@ struct CardModifier: ViewModifier {
 
     func body(content: Content) -> some View {
         content
-            .background(
-                RoundedRectangle(cornerRadius: cornerRadius)
-                    .fill(Color.white)
-                    .shadow(color: .gray, radius: 6, x: x, y: y)
+            .background(.white)
+            .cornerRadius(10)
+            .overlay(
+                RoundedRectangle(cornerRadius: 10)
+                    .stroke(.gray, lineWidth: 2)
             )
     }
 }

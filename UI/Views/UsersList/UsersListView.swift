@@ -49,12 +49,12 @@ struct UsersListView: View {
                 TextField("Name", text: $newName)
                     .textFieldStyle(.roundedBorder)
                     .padding(.horizontal)
-                    .card()
                 TextField("Email", text: $newEmail)
                     .textFieldStyle(.roundedBorder)
                     .padding(.horizontal)
-                    .card()
             }
+            .padding()
+            .card()
         }
     }
 }
