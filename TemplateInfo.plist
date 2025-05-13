@@ -68,7 +68,7 @@
                             <key>___PACKAGENAME:identifier___App.swift</key>
                             <dict>
                                 <key>Path</key>
-                                <string>App.swift</string>
+                                <string>___PACKAGENAME___/App.swift</string>
                                 <key>SortOrder</key>
                                 <integer>97</integer>
                             </dict>
@@ -77,7 +77,7 @@
                                 <key>SortOrder</key>
                                 <integer>99</integer>
                                 <key>Path</key>
-                                <string>UI/Views/Content/ContentView.swift</string>
+                                <string>___PACKAGENAME___/UI/Views/Content/ContentView.swift</string>
                             </dict>
                         </dict>
                     </dict>
@@ -153,35 +153,35 @@
                             <key>___PACKAGENAME:identifier___App.swift</key>
                             <dict>
                                 <key>Path</key>
-                                <string>App-SwiftData.swift</string>
+                                <string>___PACKAGENAME___/App-SwiftData.swift</string>
                                 <key>SortOrder</key>
                                 <integer>97</integer>
                             </dict>
                             <key>UI/Views/Content/ContentView.swift</key>
                             <dict>
                                 <key>Path</key>
-                                <string>UI/Views/Content/ContentView-SwiftData.swift</string>
+                                <string>___PACKAGENAME___/UI/Views/Content/ContentView-SwiftData.swift</string>
                                 <key>SortOrder</key>
                                 <integer>98</integer>
                             </dict>
                             <key>Domain/Entities/Item.swift</key>
                             <dict>
                                 <key>Path</key>
-                                <string>Domain/Entities/Item-SwiftData.swift</string>
+                                <string>___PACKAGENAME___/Domain/Entities/Item-SwiftData.swift</string>
                                 <key>SortOrder</key>
                                 <integer>99</integer>
                             </dict>
                             <key>Domain/Models/UserModel.swift</key>
                             <dict>
                                 <key>Path</key>
-                                <string>Domain/Models/UserModel-SwiftData.swift</string>
+                                <string>___PACKAGENAME___/Domain/Models/UserModel-SwiftData.swift</string>
                                 <key>SortOrder</key>
                                 <integer>99</integer>
                             </dict>
                             <key>Data/Local/Users/UserLocalDataSource.swift</key>
                             <dict>
                                 <key>Path</key>
-                                <string>Data/Local/Users/UserLocalDataSource-SwiftData.swift</string>
+                                <string>___PACKAGENAME___/Data/Local/Users/UserLocalDataSource-SwiftData.swift</string>
                                 <key>SortOrder</key>
                                 <integer>99</integer>
                             </dict>
@@ -233,139 +233,181 @@
             <key>Group</key>
             <string>Preview Content</string>
         </dict>
-        <!-- <key>___PACKAGENAME:identifier___App.swift</key>
-        <dict>
-            <key>Path</key>
-            <string>App.swift</string>
-            <key>SortOrder</key>
-            <integer>97</integer>
-        </dict> -->
         <key>UI/Views/Content/ContentView.swift</key>
         <dict>
             <key>Path</key>
-            <string>UI/Views/Content/ContentView.swift</string>
+            <string>___PACKAGENAME___/UI/Views/Content/ContentView.swift</string>
             <key>SortOrder</key>
             <integer>99</integer>
         </dict>
         <key>UI/Views/Content/ContentViewModel.swift</key>
         <dict>
             <key>Path</key>
-            <string>UI/Views/Content/ContentViewModel.swift</string>
+            <string>___PACKAGENAME___/UI/Views/Content/ContentViewModel.swift</string>
         </dict>
         <key>Data/Network/APIClient.swift</key>
         <dict>
             <key>Path</key>
-            <string>Data/Network/APIClient.swift</string>
+            <string>___PACKAGENAME___/Data/Network/APIClient.swift</string>
         </dict>
         <key>Resources/Localizable.strings</key>
         <dict>
             <key>Path</key>
-            <string>Resources/Localizable.strings</string>
+            <string>___PACKAGENAME___/Resources/Localizable.strings</string>
         </dict>
         <key>Utilities/Utility.swift</key>
         <dict>
             <key>Path</key>
-            <string>Utilities/Utility.swift</string>
+            <string>___PACKAGENAME___/Utilities/Utility.swift</string>
         </dict>
         <key>Utilities/Extensions/ColorExtension.swift</key>
         <dict>
             <key>Path</key>
-            <string>Utilities/Extensions/ColorExtension.swift</string>
+            <string>___PACKAGENAME___/Utilities/Extensions/ColorExtension.swift</string>
         </dict>
         <key>Utilities/Extensions/DateExtension.swift</key>
         <dict>
             <key>Path</key>
-            <string>Utilities/Extensions/DateExtension.swift</string>
+            <string>___PACKAGENAME___/Utilities/Extensions/DateExtension.swift</string>
         </dict>
         <key>Utilities/Extensions/FontExtension.swift</key>
         <dict>
             <key>Path</key>
-            <string>Utilities/Extensions/FontExtension.swift</string>
+            <string>___PACKAGENAME___/Utilities/Extensions/FontExtension.swift</string>
         </dict>
         <key>Utilities/Extensions/IntExtension.swift</key>
         <dict>
             <key>Path</key>
-            <string>Utilities/Extensions/IntExtension.swift</string>
+            <string>___PACKAGENAME___/Utilities/Extensions/IntExtension.swift</string>
         </dict>
         <key>Utilities/Extensions/StringExtension.swift</key>
         <dict>
             <key>Path</key>
-            <string>Utilities/Extensions/StringExtension.swift</string>
+            <string>___PACKAGENAME___/Utilities/Extensions/StringExtension.swift</string>
         </dict>
         <key>Utilities/Styles/CardModifier.swift</key>
         <dict>
             <key>Path</key>
-            <string>Utilities/Styles/CardModifier.swift</string>
+            <string>___PACKAGENAME___/Utilities/Styles/CardModifier.swift</string>
         </dict>
         <key>Utilities/Styles/FullScreenStyle.swift</key>
         <dict>
             <key>Path</key>
-            <string>Utilities/Styles/FullScreenStyle.swift</string>
+            <string>___PACKAGENAME___/Utilities/Styles/FullScreenStyle.swift</string>
         </dict>
         <key>Utilities/Styles/HideViewModifier.swift</key>
         <dict>
             <key>Path</key>
-            <string>Utilities/Styles/HideViewModifier.swift</string>
+            <string>___PACKAGENAME___/Utilities/Styles/HideViewModifier.swift</string>
         </dict>
         <key>Domain/Entities/User.swift</key>
         <dict>
             <key>Path</key>
-            <string>Domain/Entities/User.swift</string>
+            <string>___PACKAGENAME___/Domain/Entities/User.swift</string>
         </dict>
         <key>Domain/Models/UserDTO.swift</key>
         <dict>
             <key>Path</key>
-            <string>Domain/Models/UserDTO.swift</string>
+            <string>___PACKAGENAME___/Domain/Models/UserDTO.swift</string>
         </dict>
         <key>Domain/UseCases/Users/GetUsersUseCase.swift</key>
         <dict>
             <key>Path</key>
-            <string>Domain/UseCases/Users/GetUsersUseCase.swift</string>
+            <string>___PACKAGENAME___/Domain/UseCases/Users/GetUsersUseCase.swift</string>
         </dict>
         <key>Domain/UseCases/Users/AddUsersUseCase.swift</key>
         <dict>
             <key>Path</key>
-            <string>Domain/UseCases/Users/AddUsersUseCase.swift</string>
+            <string>___PACKAGENAME___/Domain/UseCases/Users/AddUsersUseCase.swift</string>
         </dict>
         <key>Domain/UseCases/Users/DeleteUserUseCase.swift</key>
         <dict>
             <key>Path</key>
-            <string>Domain/UseCases/Users/DeleteUserUseCase.swift</string>
+            <string>___PACKAGENAME___/Domain/UseCases/Users/DeleteUserUseCase.swift</string>
         </dict>
         <key>Domain/UseCases/Users/UserUseCases.swift</key>
         <dict>
             <key>Path</key>
-            <string>Domain/UseCases/Users/UserUseCases.swift</string>
+            <string>___PACKAGENAME___/Domain/UseCases/Users/UserUseCases.swift</string>
         </dict>
         <key>Data/Repositories/Users/UserRepository.swift</key>
         <dict>
             <key>Path</key>
-            <string>Data/Repositories/Users/UserRepository.swift</string>
+            <string>___PACKAGENAME___/Data/Repositories/Users/UserRepository.swift</string>
         </dict>
         <key>Data/Repositories/Users/UserRepositoryImpl.swift</key>
         <dict>
             <key>Path</key>
-            <string>Data/Repositories/Users/UserRepositoryImpl.swift</string>
+            <string>___PACKAGENAME___/Data/Repositories/Users/UserRepositoryImpl.swift</string>
         </dict>
         <key>Data/Network/Users/UserRemoteDataSource.swift</key>
         <dict>
             <key>Path</key>
-            <string>Data/Network/Users/UserRemoteDataSource.swift</string>
+            <string>___PACKAGENAME___/Data/Network/Users/UserRemoteDataSource.swift</string>
         </dict>
         <key>UI/Views/UsersList/UsersListView.swift</key>
         <dict>
             <key>Path</key>
-            <string>UI/Views/UsersList/UsersListView.swift</string>
+            <string>___PACKAGENAME___/UI/Views/UsersList/UsersListView.swift</string>
         </dict>
         <key>UI/Views/UsersList/UsersListViewModel.swift</key>
         <dict>
             <key>Path</key>
-            <string>UI/Views/UsersList/UsersListViewModel.swift</string>
+            <string>___PACKAGENAME___/UI/Views/UsersList/UsersListViewModel.swift</string>
         </dict>
         <key>System/Configuration.swift</key>
         <dict>
             <key>Path</key>
-            <string>System/Configuration.swift</string>
+            <string>___PACKAGENAME___/System/Configuration.swift</string>
+        </dict>
+        <key>../___PACKAGENAME___Tests/Domain/UseCases/Users/GetUsersUseCaseTests.swift</key>
+        <dict>
+            <key>Path</key>
+            <string>___PACKAGENAME___Tests/Domain/UseCases/Users/GetUsersUseCaseTests.swift</string>
+            <key>Target</key>
+            <string>___PACKAGENAME___Tests</string>
+        </dict>
+        <key>../___PACKAGENAME___Tests/Data/Repositories/UserRepositoryImplTests.swift</key>
+        <dict>
+            <key>Path</key>
+            <string>___PACKAGENAME___Tests/Data/Repositories/UserRepositoryImplTests.swift</string>
+            <key>Target</key>
+            <string>___PACKAGENAME___Tests</string>
+        </dict>
+        <key>../___PACKAGENAME___Tests/UI/Views/UsersList/UsersListViewModelTests.swift</key>
+        <dict>
+            <key>Path</key>
+            <string>___PACKAGENAME___Tests/UI/Views/UsersList/UsersListViewModelTests.swift</string>
+            <key>Target</key>
+            <string>___PACKAGENAME___Tests</string>
+        </dict>
+        <key>../___PACKAGENAME___Tests/Data/Network/APIClientTests.swift</key>
+        <dict>
+            <key>Path</key>
+            <string>___PACKAGENAME___Tests/Data/Network/APIClientTests.swift</string>
+            <key>Target</key>
+            <string>___PACKAGENAME___Tests</string>
+        </dict>
+        <key>../___PACKAGENAME___Tests/Mocks/Data/Network/MockAPIClient.swift</key>
+        <dict>
+            <key>Path</key>
+            <string>___PACKAGENAME___Tests/Mocks/Data/Network/MockAPIClient.swift</string>
+            <key>Target</key>
+            <string>___PACKAGENAME___Tests</string>
+        </dict>
+        <key>../___PACKAGENAME___Tests/Mocks/Data/Local/MockUserLocalDataSource.swift</key>
+        <dict>
+            <key>Path</key>
+            <string>___PACKAGENAME___Tests/Mocks/Data/Local/MockUserLocalDataSource.swift</string>
+            <key>Target</key>
+            <string>___PACKAGENAME___Tests</string>
+        </dict>
+        <key>../___PACKAGENAME___Tests/Mocks/Data/Remote/MockUserRemoteDataSource.swift</key>
+        <dict>
+            <key>Path</key>
+            <string>___PACKAGENAME___Tests/Mocks/Data/Remote/MockUserRemoteDataSource.swift</string>
+            <key>Target</key>
+            <string>___PACKAGENAME___Tests</string>
         </dict>
     </dict>
     <key>Nodes</key>
@@ -395,6 +437,13 @@
         <string>UI/Views/UsersList/UsersListView.swift</string>
         <string>UI/Views/UsersList/UsersListViewModel.swift</string>
         <string>System/Configuration.swift</string>
+        <string>../___PACKAGENAME___Tests/Domain/UseCases/Users/GetUsersUseCaseTests.swift</string>
+        <string>../___PACKAGENAME___Tests/Data/Repositories/UserRepositoryImplTests.swift</string>
+        <string>../___PACKAGENAME___Tests/UI/Views/UsersList/UsersListViewModelTests.swift</string>
+        <string>../___PACKAGENAME___Tests/Data/Network/APIClientTests.swift</string>
+        <string>../___PACKAGENAME___Tests/Mocks/Data/Network/MockAPIClient.swift</string>
+        <string>../___PACKAGENAME___Tests/Mocks/Data/Local/MockUserLocalDataSource.swift</string>
+        <string>../___PACKAGENAME___Tests/Mocks/Data/Remote/MockUserRemoteDataSource.swift</string>
     </array>
     <key>Targets</key>
     <array>
