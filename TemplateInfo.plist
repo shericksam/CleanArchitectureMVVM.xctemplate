@@ -355,10 +355,15 @@
             <key>Path</key>
             <string>___PACKAGENAME___/UI/Views/UsersList/UsersListViewModel.swift</string>
         </dict>
-        <key>System/Configuration.swift</key>
+        <key>System/DIContainer.swift</key>
         <dict>
             <key>Path</key>
-            <string>___PACKAGENAME___/System/Configuration.swift</string>
+            <string>___PACKAGENAME___/System/DIContainer.swift</string>
+        </dict>
+        <key>System/DIContainer+UsersList.swift</key>
+        <dict>
+            <key>Path</key>
+            <string>___PACKAGENAME___/System/DIContainer+UsersList.swift</string>
         </dict>
         <key>../___PACKAGENAME___Tests/Domain/UseCases/Users/GetUsersUseCaseTests.swift</key>
         <dict>
@@ -436,7 +441,8 @@
         <string>Data/Network/Users/UserRemoteDataSource.swift</string>
         <string>UI/Views/UsersList/UsersListView.swift</string>
         <string>UI/Views/UsersList/UsersListViewModel.swift</string>
-        <string>System/Configuration.swift</string>
+        <string>System/DIContainer.swift</string>
+        <string>System/DIContainer+UsersList.swift</string>
         <string>../___PACKAGENAME___Tests/Domain/UseCases/Users/GetUsersUseCaseTests.swift</string>
         <string>../___PACKAGENAME___Tests/Data/Repositories/UserRepositoryImplTests.swift</string>
         <string>../___PACKAGENAME___Tests/UI/Views/UsersList/UsersListViewModelTests.swift</string>

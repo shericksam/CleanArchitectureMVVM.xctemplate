@@ -4,7 +4,7 @@ import Foundation
 import SwiftData
 import SwiftUI
 
-struct DIContainer {
+extension DIContainer {
     @MainActor
     static func makeUsersListView(context: ModelContext) -> some View {
         let remote = UserRemoteDataSourceImpl.shared
