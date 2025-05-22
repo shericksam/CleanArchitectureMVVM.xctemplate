@@ -3,6 +3,12 @@
 import Foundation
 import CoreData
 
+protocol UserLocalDataSource {
+    func fetchUsers() async throws -> [User]
+    func saveUsers(_ users: [User]) async throws
+    func deleteUser(id: Int) async throws
+}
+
 final class UserLocalDataSourceCoreData: UserLocalDataSource {
     private let context: NSManagedObjectContext
 
