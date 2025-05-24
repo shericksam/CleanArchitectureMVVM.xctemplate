@@ -4,7 +4,7 @@ import SwiftUI
 import SwiftData
 
 struct UsersListView: View {
-    @Environment(\.modelContext) private var modelContext
+    @Environment(\.modelContext) private var modelContext: ModelContext
     @StateObject var viewModel: UsersListViewModel
     @State private var newName: String = "name"
     @State private var newEmail: String = "mail@mail.com"
